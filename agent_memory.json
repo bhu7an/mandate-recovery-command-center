@@ -1,0 +1,157 @@
+{
+    "S004": {
+        "last_health_score": 15,
+        "last_health_status": "Critical",
+        "last_action": "ESCALATE",
+        "last_event_id": "P026",
+        "last_action_time": "2026-08-29T10:43:09+00:00",
+        "last_action_status": "REQUIRES_HUMAN_INTERVENTION",
+        "last_attempt_id": null,
+        "last_payment_id": "P026",
+        "last_decision_time": "2026-08-29T10:43:09+00:00",
+        "intervention_count": 0,
+        "recovery_count": 0,
+        "recovered_amount": 0.0,
+        "action_history": [
+            {
+                "action_id": "ACT-S004-P026-ESCALATE",
+                "action_type": "ESCALATE",
+                "action_status": "REQUIRES_HUMAN_INTERVENTION",
+                "source_attempt_id": null,
+                "source_payment_id": "P026",
+                "amount_at_risk": 0.0,
+                "executed_at": "2026-08-29T10:43:09+00:00",
+                "outcome": "NOT_APPLICABLE",
+                "outcome_attempt_id": null,
+                "outcome_payment_id": null,
+                "outcome_time": null,
+                "amount_recovered": 0.0
+            }
+        ],
+        "last_action_id": "ACT-S004-P026-ESCALATE"
+    },
+    "S003": {
+        "last_health_score": 30,
+        "last_health_status": "High Risk",
+        "last_action": "MONITOR",
+        "last_event_id": "P020",
+        "last_action_time": "2026-08-29T10:43:09+00:00",
+        "last_action_status": "COOLDOWN_MONITORING",
+        "last_attempt_id": null,
+        "last_payment_id": "P020",
+        "last_decision_time": "2026-08-29T10:43:09+00:00",
+        "intervention_count": 0,
+        "recovery_count": 0,
+        "recovered_amount": 0.0,
+        "action_history": [
+            {
+                "action_id": "ACT-S003-P020-MONITOR",
+                "action_type": "MONITOR",
+                "action_status": "COOLDOWN_MONITORING",
+                "source_attempt_id": null,
+                "source_payment_id": "P020",
+                "amount_at_risk": 0.0,
+                "executed_at": "2026-08-29T10:43:09+00:00",
+                "outcome": "NOT_APPLICABLE",
+                "outcome_attempt_id": null,
+                "outcome_payment_id": null,
+                "outcome_time": null,
+                "amount_recovered": 0.0
+            }
+        ],
+        "last_action_id": "ACT-S003-P020-MONITOR"
+    },
+    "S005": {
+        "last_health_score": 53,
+        "last_health_status": "At Risk",
+        "last_action": "MONITOR",
+        "last_event_id": "P037",
+        "last_action_time": "2026-08-29T10:43:09+00:00",
+        "last_action_status": "COOLDOWN_MONITORING",
+        "last_attempt_id": null,
+        "last_payment_id": "P037",
+        "last_decision_time": "2026-08-29T10:43:09+00:00",
+        "intervention_count": 0,
+        "recovery_count": 0,
+        "recovered_amount": 0.0,
+        "action_history": [
+            {
+                "action_id": "ACT-S005-P037-MONITOR",
+                "action_type": "MONITOR",
+                "action_status": "COOLDOWN_MONITORING",
+                "source_attempt_id": null,
+                "source_payment_id": "P037",
+                "amount_at_risk": 0.0,
+                "executed_at": "2026-08-29T10:43:09+00:00",
+                "outcome": "NOT_APPLICABLE",
+                "outcome_attempt_id": null,
+                "outcome_payment_id": null,
+                "outcome_time": null,
+                "amount_recovered": 0.0
+            }
+        ],
+        "last_action_id": "ACT-S005-P037-MONITOR"
+    },
+    "S002": {
+        "last_health_score": 76,
+        "last_health_status": "Stable",
+        "last_action": "MONITOR",
+        "last_event_id": "P012",
+        "last_action_time": "2026-08-29T10:43:09+00:00",
+        "last_action_status": "MONITOR_ONLY",
+        "last_attempt_id": null,
+        "last_payment_id": "P012",
+        "last_decision_time": "2026-08-29T10:43:09+00:00",
+        "intervention_count": 0,
+        "recovery_count": 0,
+        "recovered_amount": 0.0,
+        "action_history": [
+            {
+                "action_id": "ACT-S002-P012-MONITOR",
+                "action_type": "MONITOR",
+                "action_status": "MONITOR_ONLY",
+                "source_attempt_id": null,
+                "source_payment_id": "P012",
+                "amount_at_risk": 0.0,
+                "executed_at": "2026-08-29T10:43:09+00:00",
+                "outcome": "NOT_APPLICABLE",
+                "outcome_attempt_id": null,
+                "outcome_payment_id": null,
+                "outcome_time": null,
+                "amount_recovered": 0.0
+            }
+        ],
+        "last_action_id": "ACT-S002-P012-MONITOR"
+    },
+    "S001": {
+        "last_health_score": 100,
+        "last_health_status": "Healthy",
+        "last_action": "NO_INTERVENTION",
+        "last_event_id": "P006",
+        "last_action_time": "2026-08-29T10:43:09+00:00",
+        "last_action_status": "NO_ACTION_REQUIRED",
+        "last_attempt_id": null,
+        "last_payment_id": "P006",
+        "last_decision_time": "2026-08-29T10:43:09+00:00",
+        "intervention_count": 0,
+        "recovery_count": 0,
+        "recovered_amount": 0.0,
+        "action_history": [
+            {
+                "action_id": "ACT-S001-P006-NO_INTERVENTION",
+                "action_type": "NO_INTERVENTION",
+                "action_status": "NO_ACTION_REQUIRED",
+                "source_attempt_id": null,
+                "source_payment_id": "P006",
+                "amount_at_risk": 0.0,
+                "executed_at": "2026-08-29T10:43:09+00:00",
+                "outcome": "NOT_APPLICABLE",
+                "outcome_attempt_id": null,
+                "outcome_payment_id": null,
+                "outcome_time": null,
+                "amount_recovered": 0.0
+            }
+        ],
+        "last_action_id": "ACT-S001-P006-NO_INTERVENTION"
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "S-DEMO": {
+        "last_health_score": 76,
+        "last_health_status": "Stable",
+        "last_action": "NO_INTERVENTION",
+        "last_action_status": "RECOVERY_CONFIRMED",
+        "last_event_id": "D003",
+        "last_attempt_id": "D003",
+        "last_payment_id": "PD003",
+        "last_decision_time": "2026-09-03T16:25:14+00:00",
+        "intervention_count": 2,
+        "recovery_count": 1,
+        "recovered_amount": 599.0,
+        "action_history": [
+            {
+                "action_id": "ACT-S-DEMO-D001-PAYMENT_REMINDER",
+                "action_type": "PAYMENT_REMINDER",
+                "action_status": "REMINDER_REQUIRED",
+                "source_attempt_id": "D001",
+                "source_payment_id": "PD001",
+                "amount_at_risk": 599.0,
+                "executed_at": "2026-09-03T16:25:14+00:00",
+                "policy_name": "Trust-First Recovery",
+                "policy_version": 1,
+                "outcome": "FAILED_AFTER_ACTION",
+                "outcome_attempt_id": "D002",
+                "outcome_payment_id": "PD002",
+                "outcome_time": "2026-09-03T16:25:14+00:00",
+                "amount_recovered": 0.0
+            },
+            {
+                "action_id": "ACT-S-DEMO-D002-HIGH_PRIORITY_RECOVERY",
+                "action_type": "HIGH_PRIORITY_RECOVERY",
+                "action_status": "ESCALATED_AFTER_FAILED_REMINDER",
+                "source_attempt_id": "D002",
+                "source_payment_id": "PD002",
+                "amount_at_risk": 599.0,
+                "executed_at": "2026-09-03T16:25:14+00:00",
+                "policy_name": "Trust-First Recovery",
+                "policy_version": 1,
+                "outcome": "RECOVERED",
+                "outcome_attempt_id": "D003",
+                "outcome_payment_id": "PD003",
+                "outcome_time": "2026-09-03T16:25:14+00:00",
+                "amount_recovered": 599.0
+            },
+            {
+                "action_id": "ACT-S-DEMO-D003-NO_INTERVENTION",
+                "action_type": "NO_INTERVENTION",
+                "action_status": "RECOVERY_CONFIRMED",
+                "source_attempt_id": "D003",
+                "source_payment_id": "PD003",
+                "amount_at_risk": 599.0,
+                "executed_at": "2026-09-03T16:25:14+00:00",
+                "policy_name": "Trust-First Recovery",
+                "policy_version": 1,
+                "outcome": "NOT_APPLICABLE",
+                "outcome_attempt_id": null,
+                "outcome_payment_id": null,
+                "outcome_time": null,
+                "amount_recovered": 0.0
+            }
+        ],
+        "last_action_id": "ACT-S-DEMO-D003-NO_INTERVENTION",
+        "last_action_time": "2026-09-03T16:25:14+00:00",
+        "last_outcome": "RECOVERED",
+        "last_outcome_time": "2026-09-03T16:25:14+00:00"
+    }
+}

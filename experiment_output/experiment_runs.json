@@ -1,0 +1,1112 @@
+[
+    {
+        "trial": 1,
+        "seed": 20260904,
+        "adaptive_agent": {
+            "recovered_customers": 200.0,
+            "amount_recovered": 144000.0,
+            "interventions": 335.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 42.0,
+            "customer_recovery_rate_percent": 40.0,
+            "revenue_recovery_rate_percent": 40.0668,
+            "interventions_per_100": 67.0,
+            "recoveries_per_100_interventions": 59.7015,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 8.4
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 179.0,
+            "amount_recovered": 127321.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 35.8,
+            "revenue_recovery_rate_percent": 35.426,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 35.8,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 4.2,
+            "revenue_recovery_percentage_points": 4.6408,
+            "interventions_avoided_per_100": 33.0,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 23.9015
+        }
+    },
+    {
+        "trial": 2,
+        "seed": 20260905,
+        "adaptive_agent": {
+            "recovered_customers": 197.0,
+            "amount_recovered": 145003.0,
+            "interventions": 333.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 42.0,
+            "customer_recovery_rate_percent": 39.4,
+            "revenue_recovery_rate_percent": 39.5859,
+            "interventions_per_100": 66.6,
+            "recoveries_per_100_interventions": 59.1592,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 8.4
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 181.0,
+            "amount_recovered": 133819.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 36.2,
+            "revenue_recovery_rate_percent": 36.5326,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 36.2,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 3.2,
+            "revenue_recovery_percentage_points": 3.0533,
+            "interventions_avoided_per_100": 33.4,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 22.9592
+        }
+    },
+    {
+        "trial": 3,
+        "seed": 20260906,
+        "adaptive_agent": {
+            "recovered_customers": 190.0,
+            "amount_recovered": 144010.0,
+            "interventions": 310.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 61.0,
+            "customer_recovery_rate_percent": 38.0,
+            "revenue_recovery_rate_percent": 38.1281,
+            "interventions_per_100": 62.0,
+            "recoveries_per_100_interventions": 61.2903,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 12.2
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 190.0,
+            "amount_recovered": 142810.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 38.0,
+            "revenue_recovery_rate_percent": 37.8104,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 38.0,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 0.0,
+            "revenue_recovery_percentage_points": 0.3177,
+            "interventions_avoided_per_100": 38.0,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 23.2903
+        }
+    },
+    {
+        "trial": 4,
+        "seed": 20260907,
+        "adaptive_agent": {
+            "recovered_customers": 200.0,
+            "amount_recovered": 145400.0,
+            "interventions": 324.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 47.0,
+            "customer_recovery_rate_percent": 40.0,
+            "revenue_recovery_rate_percent": 39.3611,
+            "interventions_per_100": 64.8,
+            "recoveries_per_100_interventions": 61.7284,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 9.4
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 193.0,
+            "amount_recovered": 137807.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 38.6,
+            "revenue_recovery_rate_percent": 37.3056,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 38.6,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 1.4,
+            "revenue_recovery_percentage_points": 2.0555,
+            "interventions_avoided_per_100": 35.2,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 23.1284
+        }
+    },
+    {
+        "trial": 5,
+        "seed": 20260908,
+        "adaptive_agent": {
+            "recovered_customers": 194.0,
+            "amount_recovered": 146406.0,
+            "interventions": 325.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 49.0,
+            "customer_recovery_rate_percent": 38.8,
+            "revenue_recovery_rate_percent": 38.3664,
+            "interventions_per_100": 65.0,
+            "recoveries_per_100_interventions": 59.6923,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 9.8
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 187.0,
+            "amount_recovered": 142213.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 37.4,
+            "revenue_recovery_rate_percent": 37.2676,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 37.4,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 1.4,
+            "revenue_recovery_percentage_points": 1.0988,
+            "interventions_avoided_per_100": 35.0,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 22.2923
+        }
+    },
+    {
+        "trial": 6,
+        "seed": 20260909,
+        "adaptive_agent": {
+            "recovered_customers": 198.0,
+            "amount_recovered": 152802.0,
+            "interventions": 329.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 39.0,
+            "customer_recovery_rate_percent": 39.6,
+            "revenue_recovery_rate_percent": 40.8889,
+            "interventions_per_100": 65.8,
+            "recoveries_per_100_interventions": 60.1824,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 7.8
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 191.0,
+            "amount_recovered": 148109.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 38.2,
+            "revenue_recovery_rate_percent": 39.6331,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 38.2,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 1.4,
+            "revenue_recovery_percentage_points": 1.2558,
+            "interventions_avoided_per_100": 34.2,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 21.9824
+        }
+    },
+    {
+        "trial": 7,
+        "seed": 20260910,
+        "adaptive_agent": {
+            "recovered_customers": 196.0,
+            "amount_recovered": 140304.0,
+            "interventions": 326.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 50.0,
+            "customer_recovery_rate_percent": 39.2,
+            "revenue_recovery_rate_percent": 38.0434,
+            "interventions_per_100": 65.2,
+            "recoveries_per_100_interventions": 60.1227,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 10.0
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 189.0,
+            "amount_recovered": 135311.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 37.8,
+            "revenue_recovery_rate_percent": 36.6895,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 37.8,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 1.4,
+            "revenue_recovery_percentage_points": 1.3539,
+            "interventions_avoided_per_100": 34.8,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 22.3227
+        }
+    },
+    {
+        "trial": 8,
+        "seed": 20260911,
+        "adaptive_agent": {
+            "recovered_customers": 209.0,
+            "amount_recovered": 163991.0,
+            "interventions": 333.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 48.0,
+            "customer_recovery_rate_percent": 41.8,
+            "revenue_recovery_rate_percent": 43.7659,
+            "interventions_per_100": 66.6,
+            "recoveries_per_100_interventions": 62.7628,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 9.6
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 209.0,
+            "amount_recovered": 159791.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 41.8,
+            "revenue_recovery_rate_percent": 42.645,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 41.8,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 0.0,
+            "revenue_recovery_percentage_points": 1.1209,
+            "interventions_avoided_per_100": 33.4,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 20.9628
+        }
+    },
+    {
+        "trial": 9,
+        "seed": 20260912,
+        "adaptive_agent": {
+            "recovered_customers": 217.0,
+            "amount_recovered": 159183.0,
+            "interventions": 339.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 41.0,
+            "customer_recovery_rate_percent": 43.4,
+            "revenue_recovery_rate_percent": 42.0008,
+            "interventions_per_100": 67.8,
+            "recoveries_per_100_interventions": 64.0118,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 8.2
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 208.0,
+            "amount_recovered": 151692.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 41.6,
+            "revenue_recovery_rate_percent": 40.0243,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 41.6,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 1.8,
+            "revenue_recovery_percentage_points": 1.9765,
+            "interventions_avoided_per_100": 32.2,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 22.4118
+        }
+    },
+    {
+        "trial": 10,
+        "seed": 20260913,
+        "adaptive_agent": {
+            "recovered_customers": 189.0,
+            "amount_recovered": 142411.0,
+            "interventions": 328.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 47.0,
+            "customer_recovery_rate_percent": 37.8,
+            "revenue_recovery_rate_percent": 38.1084,
+            "interventions_per_100": 65.6,
+            "recoveries_per_100_interventions": 57.622,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 9.4
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 178.0,
+            "amount_recovered": 134522.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 35.6,
+            "revenue_recovery_rate_percent": 35.9973,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 35.6,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 2.2,
+            "revenue_recovery_percentage_points": 2.1111,
+            "interventions_avoided_per_100": 34.4,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 22.022
+        }
+    },
+    {
+        "trial": 11,
+        "seed": 20260914,
+        "adaptive_agent": {
+            "recovered_customers": 208.0,
+            "amount_recovered": 141492.0,
+            "interventions": 316.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 50.0,
+            "customer_recovery_rate_percent": 41.6,
+            "revenue_recovery_rate_percent": 38.1072,
+            "interventions_per_100": 63.2,
+            "recoveries_per_100_interventions": 65.8228,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 10.0
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 207.0,
+            "amount_recovered": 144193.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 41.4,
+            "revenue_recovery_rate_percent": 38.8346,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 41.4,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 0.2,
+            "revenue_recovery_percentage_points": -0.7274,
+            "interventions_avoided_per_100": 36.8,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 24.4228
+        }
+    },
+    {
+        "trial": 12,
+        "seed": 20260915,
+        "adaptive_agent": {
+            "recovered_customers": 198.0,
+            "amount_recovered": 143502.0,
+            "interventions": 330.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 51.0,
+            "customer_recovery_rate_percent": 39.6,
+            "revenue_recovery_rate_percent": 38.9422,
+            "interventions_per_100": 66.0,
+            "recoveries_per_100_interventions": 60.0,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 10.2
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 201.0,
+            "amount_recovered": 145199.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 40.2,
+            "revenue_recovery_rate_percent": 39.4027,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 40.2,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": -0.6,
+            "revenue_recovery_percentage_points": -0.4605,
+            "interventions_avoided_per_100": 34.0,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 19.8
+        }
+    },
+    {
+        "trial": 13,
+        "seed": 20260916,
+        "adaptive_agent": {
+            "recovered_customers": 195.0,
+            "amount_recovered": 148205.0,
+            "interventions": 331.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 44.0,
+            "customer_recovery_rate_percent": 39.0,
+            "revenue_recovery_rate_percent": 38.6454,
+            "interventions_per_100": 66.2,
+            "recoveries_per_100_interventions": 58.9124,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 8.8
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 198.0,
+            "amount_recovered": 149702.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 39.6,
+            "revenue_recovery_rate_percent": 39.0357,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 39.6,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": -0.6,
+            "revenue_recovery_percentage_points": -0.3903,
+            "interventions_avoided_per_100": 33.8,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 19.3124
+        }
+    },
+    {
+        "trial": 14,
+        "seed": 20260917,
+        "adaptive_agent": {
+            "recovered_customers": 226.0,
+            "amount_recovered": 181374.0,
+            "interventions": 340.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 42.0,
+            "customer_recovery_rate_percent": 45.2,
+            "revenue_recovery_rate_percent": 47.3685,
+            "interventions_per_100": 68.0,
+            "recoveries_per_100_interventions": 66.4706,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 8.4
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 217.0,
+            "amount_recovered": 171283.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 43.4,
+            "revenue_recovery_rate_percent": 44.7331,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 43.4,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 1.8,
+            "revenue_recovery_percentage_points": 2.6354,
+            "interventions_avoided_per_100": 32.0,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 23.0706
+        }
+    },
+    {
+        "trial": 15,
+        "seed": 20260918,
+        "adaptive_agent": {
+            "recovered_customers": 201.0,
+            "amount_recovered": 151199.0,
+            "interventions": 332.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 41.0,
+            "customer_recovery_rate_percent": 40.2,
+            "revenue_recovery_rate_percent": 40.0209,
+            "interventions_per_100": 66.4,
+            "recoveries_per_100_interventions": 60.5422,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 8.2
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 185.0,
+            "amount_recovered": 143815.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 37.0,
+            "revenue_recovery_rate_percent": 38.0664,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 37.0,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 3.2,
+            "revenue_recovery_percentage_points": 1.9545,
+            "interventions_avoided_per_100": 33.6,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 23.5422
+        }
+    },
+    {
+        "trial": 16,
+        "seed": 20260919,
+        "adaptive_agent": {
+            "recovered_customers": 212.0,
+            "amount_recovered": 153488.0,
+            "interventions": 340.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 46.0,
+            "customer_recovery_rate_percent": 42.4,
+            "revenue_recovery_rate_percent": 41.9137,
+            "interventions_per_100": 68.0,
+            "recoveries_per_100_interventions": 62.3529,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 9.2
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 194.0,
+            "amount_recovered": 139706.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 38.8,
+            "revenue_recovery_rate_percent": 38.1502,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 38.8,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 3.6,
+            "revenue_recovery_percentage_points": 3.7635,
+            "interventions_avoided_per_100": 32.0,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 23.5529
+        }
+    },
+    {
+        "trial": 17,
+        "seed": 20260920,
+        "adaptive_agent": {
+            "recovered_customers": 228.0,
+            "amount_recovered": 167172.0,
+            "interventions": 330.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 43.0,
+            "customer_recovery_rate_percent": 45.6,
+            "revenue_recovery_rate_percent": 45.8382,
+            "interventions_per_100": 66.0,
+            "recoveries_per_100_interventions": 69.0909,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 8.6
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 214.0,
+            "amount_recovered": 153786.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 42.8,
+            "revenue_recovery_rate_percent": 42.1678,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 42.8,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 2.8,
+            "revenue_recovery_percentage_points": 3.6704,
+            "interventions_avoided_per_100": 34.0,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 26.2909
+        }
+    },
+    {
+        "trial": 18,
+        "seed": 20260921,
+        "adaptive_agent": {
+            "recovered_customers": 192.0,
+            "amount_recovered": 144408.0,
+            "interventions": 332.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 42.0,
+            "customer_recovery_rate_percent": 38.4,
+            "revenue_recovery_rate_percent": 39.2626,
+            "interventions_per_100": 66.4,
+            "recoveries_per_100_interventions": 57.8313,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 8.4
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 197.0,
+            "amount_recovered": 148703.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 39.4,
+            "revenue_recovery_rate_percent": 40.4304,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 39.4,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": -1.0,
+            "revenue_recovery_percentage_points": -1.1678,
+            "interventions_avoided_per_100": 33.6,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 18.4313
+        }
+    },
+    {
+        "trial": 19,
+        "seed": 20260922,
+        "adaptive_agent": {
+            "recovered_customers": 197.0,
+            "amount_recovered": 150903.0,
+            "interventions": 331.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 48.0,
+            "customer_recovery_rate_percent": 39.4,
+            "revenue_recovery_rate_percent": 40.5218,
+            "interventions_per_100": 66.2,
+            "recoveries_per_100_interventions": 59.5166,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 9.6
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 196.0,
+            "amount_recovered": 147304.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 39.2,
+            "revenue_recovery_rate_percent": 39.5553,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 39.2,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 0.2,
+            "revenue_recovery_percentage_points": 0.9665,
+            "interventions_avoided_per_100": 33.8,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 20.3166
+        }
+    },
+    {
+        "trial": 20,
+        "seed": 20260923,
+        "adaptive_agent": {
+            "recovered_customers": 207.0,
+            "amount_recovered": 160193.0,
+            "interventions": 330.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 43.0,
+            "customer_recovery_rate_percent": 41.4,
+            "revenue_recovery_rate_percent": 41.5762,
+            "interventions_per_100": 66.0,
+            "recoveries_per_100_interventions": 62.7273,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 8.6
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 195.0,
+            "amount_recovered": 148005.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 39.0,
+            "revenue_recovery_rate_percent": 38.4129,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 39.0,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 2.4,
+            "revenue_recovery_percentage_points": 3.1633,
+            "interventions_avoided_per_100": 34.0,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 23.7273
+        }
+    },
+    {
+        "trial": 21,
+        "seed": 20260924,
+        "adaptive_agent": {
+            "recovered_customers": 214.0,
+            "amount_recovered": 158086.0,
+            "interventions": 334.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 39.0,
+            "customer_recovery_rate_percent": 42.8,
+            "revenue_recovery_rate_percent": 42.8069,
+            "interventions_per_100": 66.8,
+            "recoveries_per_100_interventions": 64.0719,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 7.8
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 201.0,
+            "amount_recovered": 146999.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 40.2,
+            "revenue_recovery_rate_percent": 39.8048,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 40.2,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 2.6,
+            "revenue_recovery_percentage_points": 3.0021,
+            "interventions_avoided_per_100": 33.2,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 23.8719
+        }
+    },
+    {
+        "trial": 22,
+        "seed": 20260925,
+        "adaptive_agent": {
+            "recovered_customers": 193.0,
+            "amount_recovered": 137907.0,
+            "interventions": 316.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 54.0,
+            "customer_recovery_rate_percent": 38.6,
+            "revenue_recovery_rate_percent": 37.6486,
+            "interventions_per_100": 63.2,
+            "recoveries_per_100_interventions": 61.0759,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 10.8
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 190.0,
+            "amount_recovered": 132910.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 38.0,
+            "revenue_recovery_rate_percent": 36.2845,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 38.0,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 0.6,
+            "revenue_recovery_percentage_points": 1.3641,
+            "interventions_avoided_per_100": 36.8,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 23.0759
+        }
+    },
+    {
+        "trial": 23,
+        "seed": 20260926,
+        "adaptive_agent": {
+            "recovered_customers": 189.0,
+            "amount_recovered": 139411.0,
+            "interventions": 334.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 42.0,
+            "customer_recovery_rate_percent": 37.8,
+            "revenue_recovery_rate_percent": 36.8033,
+            "interventions_per_100": 66.8,
+            "recoveries_per_100_interventions": 56.5868,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 8.4
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 183.0,
+            "amount_recovered": 135317.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 36.6,
+            "revenue_recovery_rate_percent": 35.7225,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 36.6,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 1.2,
+            "revenue_recovery_percentage_points": 1.0808,
+            "interventions_avoided_per_100": 33.2,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 19.9868
+        }
+    },
+    {
+        "trial": 24,
+        "seed": 20260927,
+        "adaptive_agent": {
+            "recovered_customers": 201.0,
+            "amount_recovered": 155899.0,
+            "interventions": 322.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 56.0,
+            "customer_recovery_rate_percent": 40.2,
+            "revenue_recovery_rate_percent": 41.6175,
+            "interventions_per_100": 64.4,
+            "recoveries_per_100_interventions": 62.4224,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 11.2
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 201.0,
+            "amount_recovered": 157099.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 40.2,
+            "revenue_recovery_rate_percent": 41.9378,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 40.2,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 0.0,
+            "revenue_recovery_percentage_points": -0.3203,
+            "interventions_avoided_per_100": 35.6,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 22.2224
+        }
+    },
+    {
+        "trial": 25,
+        "seed": 20260928,
+        "adaptive_agent": {
+            "recovered_customers": 199.0,
+            "amount_recovered": 150601.0,
+            "interventions": 336.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 47.0,
+            "customer_recovery_rate_percent": 39.8,
+            "revenue_recovery_rate_percent": 39.6841,
+            "interventions_per_100": 67.2,
+            "recoveries_per_100_interventions": 59.2262,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 9.4
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 176.0,
+            "amount_recovered": 134924.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 35.2,
+            "revenue_recovery_rate_percent": 35.5531,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 35.2,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 4.6,
+            "revenue_recovery_percentage_points": 4.131,
+            "interventions_avoided_per_100": 32.8,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 24.0262
+        }
+    },
+    {
+        "trial": 26,
+        "seed": 20260929,
+        "adaptive_agent": {
+            "recovered_customers": 202.0,
+            "amount_recovered": 155298.0,
+            "interventions": 328.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 35.0,
+            "customer_recovery_rate_percent": 40.4,
+            "revenue_recovery_rate_percent": 40.9757,
+            "interventions_per_100": 65.6,
+            "recoveries_per_100_interventions": 61.5854,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 7.0
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 188.0,
+            "amount_recovered": 142712.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 37.6,
+            "revenue_recovery_rate_percent": 37.6549,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 37.6,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 2.8,
+            "revenue_recovery_percentage_points": 3.3208,
+            "interventions_avoided_per_100": 34.4,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 23.9854
+        }
+    },
+    {
+        "trial": 27,
+        "seed": 20260930,
+        "adaptive_agent": {
+            "recovered_customers": 200.0,
+            "amount_recovered": 145600.0,
+            "interventions": 348.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 29.0,
+            "customer_recovery_rate_percent": 40.0,
+            "revenue_recovery_rate_percent": 38.1751,
+            "interventions_per_100": 69.6,
+            "recoveries_per_100_interventions": 57.4713,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 5.8
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 187.0,
+            "amount_recovered": 135113.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 37.4,
+            "revenue_recovery_rate_percent": 35.4255,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 37.4,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 2.6,
+            "revenue_recovery_percentage_points": 2.7496,
+            "interventions_avoided_per_100": 30.4,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 20.0713
+        }
+    },
+    {
+        "trial": 28,
+        "seed": 20260931,
+        "adaptive_agent": {
+            "recovered_customers": 208.0,
+            "amount_recovered": 158792.0,
+            "interventions": 330.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 45.0,
+            "customer_recovery_rate_percent": 41.6,
+            "revenue_recovery_rate_percent": 41.6777,
+            "interventions_per_100": 66.0,
+            "recoveries_per_100_interventions": 63.0303,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 9.0
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 198.0,
+            "amount_recovered": 155802.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 39.6,
+            "revenue_recovery_rate_percent": 40.8929,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 39.6,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 2.0,
+            "revenue_recovery_percentage_points": 0.7848,
+            "interventions_avoided_per_100": 34.0,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 23.4303
+        }
+    },
+    {
+        "trial": 29,
+        "seed": 20260932,
+        "adaptive_agent": {
+            "recovered_customers": 210.0,
+            "amount_recovered": 156190.0,
+            "interventions": 330.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 41.0,
+            "customer_recovery_rate_percent": 42.0,
+            "revenue_recovery_rate_percent": 42.9211,
+            "interventions_per_100": 66.0,
+            "recoveries_per_100_interventions": 63.6364,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 8.2
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 197.0,
+            "amount_recovered": 146603.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 39.4,
+            "revenue_recovery_rate_percent": 40.2866,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 39.4,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 2.6,
+            "revenue_recovery_percentage_points": 2.6345,
+            "interventions_avoided_per_100": 34.0,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 24.2364
+        }
+    },
+    {
+        "trial": 30,
+        "seed": 20260933,
+        "adaptive_agent": {
+            "recovered_customers": 198.0,
+            "amount_recovered": 142102.0,
+            "interventions": 312.0,
+            "systemic_contacts": 0.0,
+            "human_escalations": 50.0,
+            "customer_recovery_rate_percent": 39.6,
+            "revenue_recovery_rate_percent": 38.9855,
+            "interventions_per_100": 62.4,
+            "recoveries_per_100_interventions": 63.4615,
+            "systemic_contacts_per_100": 0.0,
+            "human_escalations_per_100": 10.0
+        },
+        "fixed_reminder_baseline": {
+            "recovered_customers": 196.0,
+            "amount_recovered": 138604.0,
+            "interventions": 500.0,
+            "systemic_contacts": 60.0,
+            "human_escalations": 0.0,
+            "customer_recovery_rate_percent": 39.2,
+            "revenue_recovery_rate_percent": 38.0258,
+            "interventions_per_100": 100.0,
+            "recoveries_per_100_interventions": 39.2,
+            "systemic_contacts_per_100": 12.0,
+            "human_escalations_per_100": 0.0
+        },
+        "paired_difference": {
+            "recovery_rate_percentage_points": 0.4,
+            "revenue_recovery_percentage_points": 0.9597,
+            "interventions_avoided_per_100": 37.6,
+            "systemic_contacts_prevented_per_100": 12.0,
+            "recovery_efficiency_percentage_points": 24.2615
+        }
+    }
+]

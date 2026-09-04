@@ -1,0 +1,17 @@
+{
+    "generated_at": "2026-08-29T10:43:09+00:00",
+    "data_scope": "LOCAL_SIMULATION",
+    "customers_monitored": 5,
+    "total_decisions": 5,
+    "interventions_executed": 0,
+    "resolved_interventions": 0,
+    "pending_interventions": 0,
+    "successful_recoveries": 0,
+    "failed_recoveries": 0,
+    "recovery_rate_percent": 0,
+    "revenue_at_risk": 0,
+    "amount_recovered": 0,
+    "revenue_recovery_percent": 0,
+    "reminders_suppressed_by_cooldown": 2,
+    "human_escalations": 1
+}

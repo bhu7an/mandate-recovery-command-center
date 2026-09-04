@@ -1,0 +1,19 @@
+{
+    "policy_name": "Trust-First Recovery",
+    "version": 1,
+    "thresholds": {
+        "critical_below": 20,
+        "high_risk_below": 40,
+        "at_risk_below": 60,
+        "monitor_below": 80
+    },
+    "max_customer_contacts": 2,
+    "contact_window_hours": 72,
+    "stop_after_success": true,
+    "human_approval_after_failed_recovery": true,
+    "suppress_contacts_during_systemic_incident": true,
+    "allowed_automated_actions": [
+        "PAYMENT_REMINDER",
+        "HIGH_PRIORITY_RECOVERY"
+    ]
+}

@@ -1,0 +1,117 @@
+[
+    {
+        "timestamp": "2026-08-29T10:43:09+00:00",
+        "action_id": "ACT-S004-P026-ESCALATE",
+        "subscription_id": "S004",
+        "attempt_id": null,
+        "payment_id": "P026",
+        "amount_at_risk": 0.0,
+        "health_score": 15,
+        "health_status": "Critical",
+        "primary_problem": "Multiple consecutive payment failures",
+        "ai_recommended_action": "ESCALATE",
+        "final_action": "ESCALATE",
+        "action_status": "REQUIRES_HUMAN_INTERVENTION",
+        "guardrail_applied": null,
+        "outcome_status": "NOT_APPLICABLE",
+        "simulation": {
+            "simulation_type": "HUMAN_ESCALATION",
+            "customer": "S004",
+            "case_priority": "CRITICAL",
+            "case_status": "SIMULATED_AWAITING_APPROVAL",
+            "next_step": "A human must approve any further customer contact."
+        }
+    },
+    {
+        "timestamp": "2026-08-29T10:43:09+00:00",
+        "action_id": "ACT-S003-P020-MONITOR",
+        "subscription_id": "S003",
+        "attempt_id": null,
+        "payment_id": "P020",
+        "amount_at_risk": 0.0,
+        "health_score": 30,
+        "health_status": "High Risk",
+        "primary_problem": "Payment behaviour is strongly deteriorating",
+        "ai_recommended_action": "HIGH_PRIORITY_RECOVERY",
+        "final_action": "MONITOR",
+        "action_status": "COOLDOWN_MONITORING",
+        "guardrail_applied": "LEGACY_SAME_EVENT_COOLDOWN",
+        "outcome_status": "NOT_APPLICABLE",
+        "simulation": {
+            "simulation_type": "COOLDOWN_MONITORING",
+            "customer": "S003",
+            "monitoring_status": "ACTIVE",
+            "customer_contacted": false,
+            "message": "No duplicate customer communication was sent."
+        }
+    },
+    {
+        "timestamp": "2026-08-29T10:43:09+00:00",
+        "action_id": "ACT-S005-P037-MONITOR",
+        "subscription_id": "S005",
+        "attempt_id": null,
+        "payment_id": "P037",
+        "amount_at_risk": 0.0,
+        "health_score": 53,
+        "health_status": "At Risk",
+        "primary_problem": "Payment failures are not being consistently recovered",
+        "ai_recommended_action": "PAYMENT_REMINDER",
+        "final_action": "MONITOR",
+        "action_status": "COOLDOWN_MONITORING",
+        "guardrail_applied": "LEGACY_SAME_EVENT_COOLDOWN",
+        "outcome_status": "NOT_APPLICABLE",
+        "simulation": {
+            "simulation_type": "COOLDOWN_MONITORING",
+            "customer": "S005",
+            "monitoring_status": "ACTIVE",
+            "customer_contacted": false,
+            "message": "No duplicate customer communication was sent."
+        }
+    },
+    {
+        "timestamp": "2026-08-29T10:43:09+00:00",
+        "action_id": "ACT-S002-P012-MONITOR",
+        "subscription_id": "S002",
+        "attempt_id": null,
+        "payment_id": "P012",
+        "amount_at_risk": 0.0,
+        "health_score": 76,
+        "health_status": "Stable",
+        "primary_problem": "An isolated payment failure required a delayed recovery",
+        "ai_recommended_action": "MONITOR",
+        "final_action": "MONITOR",
+        "action_status": "MONITOR_ONLY",
+        "guardrail_applied": null,
+        "outcome_status": "NOT_APPLICABLE",
+        "simulation": {
+            "simulation_type": "MONITOR",
+            "customer": "S002",
+            "monitoring_status": "ACTIVE",
+            "customer_contacted": false,
+            "message": "No customer communication was sent."
+        }
+    },
+    {
+        "timestamp": "2026-08-29T10:43:09+00:00",
+        "action_id": "ACT-S001-P006-NO_INTERVENTION",
+        "subscription_id": "S001",
+        "attempt_id": null,
+        "payment_id": "P006",
+        "amount_at_risk": 0.0,
+        "health_score": 100,
+        "health_status": "Healthy",
+        "primary_problem": "No significant payment health problem",
+        "ai_recommended_action": "NO_INTERVENTION",
+        "final_action": "NO_INTERVENTION",
+        "action_status": "NO_ACTION_REQUIRED",
+        "guardrail_applied": null,
+        "outcome_status": "NOT_APPLICABLE",
+        "simulation": {
+            "simulation_type": "NO_INTERVENTION",
+            "customer": "S001",
+            "action_status": "NO_ACTION",
+            "customer_contacted": false,
+            "message": "No intervention was executed."
+        }
+    }
+]

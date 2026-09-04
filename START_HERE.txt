@@ -1,0 +1,51 @@
+MANDATE RECOVERY POLICY EVIDENCE V6
+====================================
+
+This ZIP is flat: open the extracted folder itself in VS Code.
+
+1. Edit db_config.local.json and enter your MySQL password.
+2. Edit razorpay_config.local.json and enter the same secret used for the
+   Razorpay Test Mode webhook. Do not enter a Razorpay API Key Secret.
+3. merchant_policy.local.json is already safe and ready. You can edit it from
+   the dashboard later; no secret belongs in this file.
+4. Verify the correct version:
+
+   python -m unittest discover -s tests -v
+
+   Expected result: Ran 40 tests / OK
+
+5. In the Razorpay webhook, enable payment.failed and payment.captured.
+6. Create a Test Mode Standard Payment Link for INR 599 with this note:
+
+   local_subscription_id = S005
+
+7. Generate the paired Agent-vs-Fixed-Reminder evidence:
+
+   python policy_experiment.py
+
+   Expected reference result:
+   Agent recovery 40.45% | Fixed 38.84%
+   Agent interventions 65.89/100 | Fixed 100/100
+
+8. Run these in three separate terminals:
+
+   python live_agent.py
+   python dashboard_server.py
+   ngrok http 8502
+
+9. Open http://localhost:8502 and scroll to Merchant Recovery Constitution.
+   Save a policy; the next live-agent event uses the new version automatically.
+
+10. Scroll to Counterfactual Recovery Lab. Its default S005 scenario compares
+   the active policy against a stricter draft without saving or executing it.
+   Change the score, high-risk boundary, contact count/cap, or incident switch,
+   then select Compare decisions.
+
+11. Scroll to Paired Policy Evidence to compare the adaptive agent with the
+    fixed-reminder baseline across 15,000 identical paired scenarios.
+
+12. Open the Payment Link and simulate failure, then retry with success.
+
+Never upload db_config.local.json or razorpay_config.local.json publicly after
+you add your secrets. All local configuration filenames are listed in
+.gitignore.

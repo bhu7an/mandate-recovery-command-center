@@ -1,0 +1,78 @@
+[
+    {
+        "subscription_id": "S004",
+        "event_id": "P026",
+        "health_score": 15,
+        "health_status": "Critical",
+        "primary_problem": "Multiple consecutive payment failures",
+        "risk_explanation": [
+            "1 failed payment(s) remain unresolved.",
+            "Multiple payment failures have occurred consecutively.",
+            "The customer has a high payment failure risk."
+        ],
+        "recommended_action": "ESCALATE",
+        "priority": "CRITICAL",
+        "reason": "The customer has critical payment health with unresolved failures. Immediate intervention is recommended.",
+        "confidence": 0.95
+    },
+    {
+        "subscription_id": "S003",
+        "event_id": "P020",
+        "health_score": 30,
+        "health_status": "High Risk",
+        "primary_problem": "Payment behaviour is strongly deteriorating",
+        "risk_explanation": [
+            "1 failed payment(s) remain unresolved.",
+            "There is a pattern of consecutive payment failures.",
+            "The customer has a high payment failure risk."
+        ],
+        "recommended_action": "HIGH_PRIORITY_RECOVERY",
+        "priority": "HIGH",
+        "reason": "The customer's payment behaviour indicates significant recovery risk. A high-priority payment recovery intervention is recommended.",
+        "confidence": 0.9
+    },
+    {
+        "subscription_id": "S005",
+        "event_id": "P037",
+        "health_score": 53,
+        "health_status": "At Risk",
+        "primary_problem": "Payment failures are not being consistently recovered",
+        "risk_explanation": [
+            "1 failed payment(s) remain unresolved.",
+            "The customer has a high payment failure risk."
+        ],
+        "recommended_action": "PAYMENT_REMINDER",
+        "priority": "MEDIUM",
+        "reason": "The customer shows moderate payment risk. A payment reminder can be used before the situation becomes more serious.",
+        "confidence": 0.85
+    },
+    {
+        "subscription_id": "S002",
+        "event_id": "P012",
+        "health_score": 76,
+        "health_status": "Stable",
+        "primary_problem": "An isolated payment failure required a delayed recovery",
+        "risk_explanation": [
+            "The customer has experienced multiple payment failures.",
+            "Successful payment recovery takes an average of 8.0 hours."
+        ],
+        "recommended_action": "MONITOR",
+        "priority": "LOW",
+        "reason": "The customer's payment health is currently stable but should continue to be monitored.",
+        "confidence": 0.8
+    },
+    {
+        "subscription_id": "S001",
+        "event_id": "P006",
+        "health_score": 100,
+        "health_status": "Healthy",
+        "primary_problem": "No significant payment health problem",
+        "risk_explanation": [
+            "Payment behaviour is currently stable."
+        ],
+        "recommended_action": "NO_INTERVENTION",
+        "priority": "LOW",
+        "reason": "The customer has healthy payment behaviour and does not currently require intervention.",
+        "confidence": 0.95
+    }
+]

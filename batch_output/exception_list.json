@@ -1,0 +1,350 @@
+[
+    {
+        "subscription_id": "BS001",
+        "amount_at_risk": 999.0,
+        "failure_reason": "bank_timeout",
+        "final_status": "SYSTEMIC_INCIDENT_HOLD"
+    },
+    {
+        "subscription_id": "BS002",
+        "amount_at_risk": 1299.0,
+        "failure_reason": "bank_timeout",
+        "final_status": "SYSTEMIC_INCIDENT_HOLD"
+    },
+    {
+        "subscription_id": "BS003",
+        "amount_at_risk": 299.0,
+        "failure_reason": "bank_timeout",
+        "final_status": "SYSTEMIC_INCIDENT_HOLD"
+    },
+    {
+        "subscription_id": "BS004",
+        "amount_at_risk": 299.0,
+        "failure_reason": "bank_timeout",
+        "final_status": "SYSTEMIC_INCIDENT_HOLD"
+    },
+    {
+        "subscription_id": "BS005",
+        "amount_at_risk": 1299.0,
+        "failure_reason": "bank_timeout",
+        "final_status": "SYSTEMIC_INCIDENT_HOLD"
+    },
+    {
+        "subscription_id": "BS006",
+        "amount_at_risk": 299.0,
+        "failure_reason": "bank_timeout",
+        "final_status": "SYSTEMIC_INCIDENT_HOLD"
+    },
+    {
+        "subscription_id": "BS007",
+        "amount_at_risk": 499.0,
+        "failure_reason": "bank_timeout",
+        "final_status": "SYSTEMIC_INCIDENT_HOLD"
+    },
+    {
+        "subscription_id": "BS008",
+        "amount_at_risk": 499.0,
+        "failure_reason": "bank_timeout",
+        "final_status": "SYSTEMIC_INCIDENT_HOLD"
+    },
+    {
+        "subscription_id": "BS009",
+        "amount_at_risk": 999.0,
+        "failure_reason": "bank_timeout",
+        "final_status": "SYSTEMIC_INCIDENT_HOLD"
+    },
+    {
+        "subscription_id": "BS010",
+        "amount_at_risk": 999.0,
+        "failure_reason": "bank_timeout",
+        "final_status": "SYSTEMIC_INCIDENT_HOLD"
+    },
+    {
+        "subscription_id": "BS011",
+        "amount_at_risk": 499.0,
+        "failure_reason": "bank_timeout",
+        "final_status": "SYSTEMIC_INCIDENT_HOLD"
+    },
+    {
+        "subscription_id": "BS012",
+        "amount_at_risk": 1299.0,
+        "failure_reason": "bank_timeout",
+        "final_status": "SYSTEMIC_INCIDENT_HOLD"
+    },
+    {
+        "subscription_id": "BS013",
+        "amount_at_risk": 1299.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS015",
+        "amount_at_risk": 799.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS016",
+        "amount_at_risk": 599.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "MONITOR_ONLY"
+    },
+    {
+        "subscription_id": "BS017",
+        "amount_at_risk": 599.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "ESCALATED_AFTER_FAILED_REMINDER"
+    },
+    {
+        "subscription_id": "BS019",
+        "amount_at_risk": 499.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "MONITOR_ONLY"
+    },
+    {
+        "subscription_id": "BS021",
+        "amount_at_risk": 599.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS022",
+        "amount_at_risk": 799.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "MONITOR_ONLY"
+    },
+    {
+        "subscription_id": "BS029",
+        "amount_at_risk": 999.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "MONITOR_ONLY"
+    },
+    {
+        "subscription_id": "BS030",
+        "amount_at_risk": 799.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "ESCALATED_AFTER_FAILED_REMINDER"
+    },
+    {
+        "subscription_id": "BS032",
+        "amount_at_risk": 599.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS034",
+        "amount_at_risk": 599.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "ESCALATED_AFTER_FAILED_REMINDER"
+    },
+    {
+        "subscription_id": "BS036",
+        "amount_at_risk": 299.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS039",
+        "amount_at_risk": 599.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "ESCALATED_AFTER_FAILED_REMINDER"
+    },
+    {
+        "subscription_id": "BS040",
+        "amount_at_risk": 499.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "MONITOR_ONLY"
+    },
+    {
+        "subscription_id": "BS041",
+        "amount_at_risk": 299.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS042",
+        "amount_at_risk": 499.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "ESCALATED_AFTER_FAILED_REMINDER"
+    },
+    {
+        "subscription_id": "BS044",
+        "amount_at_risk": 499.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "MONITOR_ONLY"
+    },
+    {
+        "subscription_id": "BS046",
+        "amount_at_risk": 799.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "MONITOR_ONLY"
+    },
+    {
+        "subscription_id": "BS047",
+        "amount_at_risk": 499.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS048",
+        "amount_at_risk": 299.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS049",
+        "amount_at_risk": 1299.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS055",
+        "amount_at_risk": 499.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS059",
+        "amount_at_risk": 299.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "MONITOR_ONLY"
+    },
+    {
+        "subscription_id": "BS060",
+        "amount_at_risk": 499.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "MONITOR_ONLY"
+    },
+    {
+        "subscription_id": "BS063",
+        "amount_at_risk": 1299.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "ESCALATED_AFTER_FAILED_REMINDER"
+    },
+    {
+        "subscription_id": "BS064",
+        "amount_at_risk": 999.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "ESCALATED_AFTER_FAILED_REMINDER"
+    },
+    {
+        "subscription_id": "BS065",
+        "amount_at_risk": 999.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "MONITOR_ONLY"
+    },
+    {
+        "subscription_id": "BS067",
+        "amount_at_risk": 1299.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS069",
+        "amount_at_risk": 1299.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS072",
+        "amount_at_risk": 999.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "ESCALATED_AFTER_FAILED_REMINDER"
+    },
+    {
+        "subscription_id": "BS073",
+        "amount_at_risk": 1299.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "ESCALATED_AFTER_FAILED_REMINDER"
+    },
+    {
+        "subscription_id": "BS074",
+        "amount_at_risk": 799.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "ESCALATED_AFTER_FAILED_REMINDER"
+    },
+    {
+        "subscription_id": "BS075",
+        "amount_at_risk": 599.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "ESCALATED_AFTER_FAILED_REMINDER"
+    },
+    {
+        "subscription_id": "BS076",
+        "amount_at_risk": 999.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "ESCALATED_AFTER_FAILED_REMINDER"
+    },
+    {
+        "subscription_id": "BS077",
+        "amount_at_risk": 999.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS082",
+        "amount_at_risk": 599.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS083",
+        "amount_at_risk": 799.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "ESCALATED_AFTER_FAILED_REMINDER"
+    },
+    {
+        "subscription_id": "BS084",
+        "amount_at_risk": 999.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "ESCALATED_AFTER_FAILED_REMINDER"
+    },
+    {
+        "subscription_id": "BS089",
+        "amount_at_risk": 499.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS092",
+        "amount_at_risk": 499.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "MONITOR_ONLY"
+    },
+    {
+        "subscription_id": "BS093",
+        "amount_at_risk": 799.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS094",
+        "amount_at_risk": 799.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS095",
+        "amount_at_risk": 499.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "REQUIRES_HUMAN_INTERVENTION"
+    },
+    {
+        "subscription_id": "BS096",
+        "amount_at_risk": 1299.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "ESCALATED_AFTER_FAILED_REMINDER"
+    },
+    {
+        "subscription_id": "BS097",
+        "amount_at_risk": 999.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "MONITOR_ONLY"
+    },
+    {
+        "subscription_id": "BS100",
+        "amount_at_risk": 999.0,
+        "failure_reason": "insufficient_balance",
+        "final_status": "ESCALATED_AFTER_FAILED_REMINDER"
+    }
+]

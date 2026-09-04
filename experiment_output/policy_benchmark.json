@@ -1,0 +1,177 @@
+{
+    "data_scope": "SYNTHETIC_PAIRED_POLICY_EXPERIMENT",
+    "experiment_name": "Adaptive Agent vs Fixed Reminder",
+    "protocol": {
+        "trials": 30,
+        "cohort_size_per_trial": 500,
+        "paired_scenarios_evaluated": 15000,
+        "strategy_decisions_evaluated": 30000,
+        "base_seed": 20260904,
+        "common_random_numbers": true,
+        "summary_method": "Mean across trials with normal 95% simulation CI",
+        "systemic_failure_share_percent": 12.0,
+        "score_population": [
+            15,
+            30,
+            53,
+            76
+        ],
+        "score_weights_percent": [
+            10,
+            25,
+            50,
+            15
+        ],
+        "active_policy_name": "Trust-First Recovery",
+        "active_policy_version": 1,
+        "baseline": "One fixed payment reminder for every failed mandate"
+    },
+    "adaptive_agent": {
+        "customer_recovery_rate_percent": {
+            "mean": 40.45,
+            "ci95_low": 39.74,
+            "ci95_high": 41.16,
+            "observed_low": 37.8,
+            "observed_high": 45.6
+        },
+        "revenue_recovery_rate_percent": {
+            "mean": 40.39,
+            "ci95_low": 39.52,
+            "ci95_high": 41.27,
+            "observed_low": 36.8,
+            "observed_high": 47.37
+        },
+        "interventions_per_100": {
+            "mean": 65.89,
+            "ci95_low": 65.3,
+            "ci95_high": 66.49,
+            "observed_low": 62.0,
+            "observed_high": 69.6
+        },
+        "recoveries_per_100_interventions": {
+            "mean": 61.4,
+            "ci95_low": 60.39,
+            "ci95_high": 62.42,
+            "observed_low": 56.59,
+            "observed_high": 69.09
+        },
+        "systemic_contacts_per_100": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "observed_low": 0.0,
+            "observed_high": 0.0
+        },
+        "human_escalations_per_100": {
+            "mean": 9.03,
+            "ci95_low": 8.58,
+            "ci95_high": 9.48,
+            "observed_low": 5.8,
+            "observed_high": 12.2
+        }
+    },
+    "fixed_reminder_baseline": {
+        "customer_recovery_rate_percent": {
+            "mean": 38.84,
+            "ci95_low": 38.1,
+            "ci95_high": 39.58,
+            "observed_low": 35.2,
+            "observed_high": 43.4
+        },
+        "revenue_recovery_rate_percent": {
+            "mean": 38.66,
+            "ci95_low": 37.82,
+            "ci95_high": 39.5,
+            "observed_low": 35.43,
+            "observed_high": 44.73
+        },
+        "interventions_per_100": {
+            "mean": 100.0,
+            "ci95_low": 100.0,
+            "ci95_high": 100.0,
+            "observed_low": 100.0,
+            "observed_high": 100.0
+        },
+        "recoveries_per_100_interventions": {
+            "mean": 38.84,
+            "ci95_low": 38.1,
+            "ci95_high": 39.58,
+            "observed_low": 35.2,
+            "observed_high": 43.4
+        },
+        "systemic_contacts_per_100": {
+            "mean": 12.0,
+            "ci95_low": 12.0,
+            "ci95_high": 12.0,
+            "observed_low": 12.0,
+            "observed_high": 12.0
+        },
+        "human_escalations_per_100": {
+            "mean": 0.0,
+            "ci95_low": 0.0,
+            "ci95_high": 0.0,
+            "observed_low": 0.0,
+            "observed_high": 0.0
+        }
+    },
+    "paired_difference": {
+        "recovery_rate_percentage_points": {
+            "mean": 1.61,
+            "ci95_low": 1.09,
+            "ci95_high": 2.14,
+            "observed_low": -1.0,
+            "observed_high": 4.6
+        },
+        "revenue_recovery_percentage_points": {
+            "mean": 1.74,
+            "ci95_low": 1.19,
+            "ci95_high": 2.28,
+            "observed_low": -1.17,
+            "observed_high": 4.64
+        },
+        "interventions_avoided_per_100": {
+            "mean": 34.11,
+            "ci95_low": 33.51,
+            "ci95_high": 34.7,
+            "observed_low": 30.4,
+            "observed_high": 38.0
+        },
+        "systemic_contacts_prevented_per_100": {
+            "mean": 12.0,
+            "ci95_low": 12.0,
+            "ci95_high": 12.0,
+            "observed_low": 12.0,
+            "observed_high": 12.0
+        },
+        "recovery_efficiency_percentage_points": {
+            "mean": 22.56,
+            "ci95_low": 21.92,
+            "ci95_high": 23.2,
+            "observed_low": 18.43,
+            "observed_high": 26.29
+        }
+    },
+    "headline": "Across identical seeded cases, the adaptive policy targets fewer customers, suppresses systemic-failure contacts, and measures recovery efficiency separately from raw recovery.",
+    "assumptions": {
+        "fixed_reminder_recovery_probability": {
+            "critical": 0.2,
+            "high_risk": 0.35,
+            "at_risk": 0.56,
+            "stable": 0.3,
+            "systemic_failure": 0.02
+        },
+        "high_priority_recovery_probability": {
+            "critical": 0.5,
+            "high_risk": 0.7,
+            "at_risk": 0.62,
+            "stable": 0.4,
+            "systemic_failure": 0.0
+        }
+    },
+    "limitations": [
+        "All customers and outcomes are synthetic; this is not production recovery lift.",
+        "Recovery probabilities are declared scenario assumptions, not trained estimates.",
+        "The comparison evaluates first-action policy quality, not a clinical or causal model.",
+        "Human-review outcomes are not counted as automatic recoveries inside this window."
+    ]
+}

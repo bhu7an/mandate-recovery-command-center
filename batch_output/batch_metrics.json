@@ -1,0 +1,19 @@
+{
+    "data_scope": "SYNTHETIC_BATCH_SIMULATION",
+    "random_seed": 20260829,
+    "subscriptions_evaluated": 100,
+    "revenue_at_risk": 79900.0,
+    "customers_recovered": 42,
+    "amount_recovered": 35158.0,
+    "customer_recovery_rate_percent": 42.0,
+    "revenue_recovery_rate_percent": 44.0,
+    "customer_contacts_executed": 84,
+    "contacts_suppressed_for_systemic_incident": 12,
+    "human_escalations": 18,
+    "unresolved_or_gated_exceptions": 58,
+    "limitations": [
+        "Outcomes are seeded synthetic simulations, not production payments.",
+        "Recovery probabilities are scenario assumptions, not trained estimates.",
+        "The exception list is retained instead of hiding failed cases."
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "generated_at": "2026-09-03T16:25:15+00:00",
+    "data_scope": "LOCAL_SIMULATION",
+    "customers_monitored": 100,
+    "total_decisions": 167,
+    "interventions_executed": 83,
+    "resolved_interventions": 68,
+    "pending_interventions": 15,
+    "successful_recoveries": 42,
+    "failed_recoveries": 26,
+    "recovery_rate_percent": 61.76,
+    "revenue_at_risk": 68117.0,
+    "amount_recovered": 35158.0,
+    "revenue_recovery_percent": 51.61,
+    "reminders_suppressed_by_cooldown": 0,
+    "human_escalations": 18
+}

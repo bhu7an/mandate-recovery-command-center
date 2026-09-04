@@ -1,0 +1,28 @@
+[
+    {
+        "evaluated_at": "2026-09-03T16:25:14+00:00",
+        "subscription_id": "S-DEMO",
+        "action_id": "ACT-S-DEMO-D001-PAYMENT_REMINDER",
+        "previous_action": "PAYMENT_REMINDER",
+        "source_attempt_id": "D001",
+        "source_payment_id": "PD001",
+        "outcome_attempt_id": "D002",
+        "outcome_payment_id": "PD002",
+        "evaluation_status": "OUTCOME_RECORDED",
+        "outcome": "FAILED_AFTER_ACTION",
+        "amount_recovered": 0.0
+    },
+    {
+        "evaluated_at": "2026-09-03T16:25:14+00:00",
+        "subscription_id": "S-DEMO",
+        "action_id": "ACT-S-DEMO-D002-HIGH_PRIORITY_RECOVERY",
+        "previous_action": "HIGH_PRIORITY_RECOVERY",
+        "source_attempt_id": "D002",
+        "source_payment_id": "PD002",
+        "outcome_attempt_id": "D003",
+        "outcome_payment_id": "PD003",
+        "evaluation_status": "OUTCOME_RECORDED",
+        "outcome": "RECOVERED",
+        "amount_recovered": 599.0
+    }
+]

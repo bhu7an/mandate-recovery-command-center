@@ -1,0 +1,6 @@
+subscription_id,latest_payment_id,failure_risk,consecutive_failure_risk,retry_risk,average_recovery_delay_hours,unresolved_failures,recovery_delay_risk,deterioration_risk,total_risk,health_score,health_status
+S004,P026,30,25,0,,1,15,15,85,15,Critical
+S003,P020,24,10,6,16.0,1,15,15,70,30,High Risk
+S005,P037,24,5,3,13.0,1,15,0,47,53,At Risk
+S002,P012,12,0,0,8.0,0,12,0,24,76,Stable
+S001,P006,0,0,0,,0,0,0,0,100,Healthy

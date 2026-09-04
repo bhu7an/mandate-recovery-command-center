@@ -1,0 +1,11 @@
+{
+    "mode": "test",
+    "webhook_secret": "REPLACE_WITH_YOUR_TEST_WEBHOOK_SECRET",
+    "subscription_map": {
+        "sub_REPLACE_WITH_TEST_SUBSCRIPTION_ID": {
+            "local_subscription_id": "S005",
+            "amount": 599
+        }
+    },
+    "payment_link_map": {}
+}

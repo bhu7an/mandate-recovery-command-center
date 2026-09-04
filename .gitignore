@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+db_config.local.json
+razorpay_config.local.json
+merchant_policy.local.json
+.idea/
+.vscode/
